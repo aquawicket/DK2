@@ -39,6 +39,16 @@ DK2 - DigitalKnob rebuilt from the bottom up.
          Q. If DK2 thur DK10 all have DKPlugins/DKCore except DK6, and we run DK6, which DKCore will it choose.
          ANSWER. If DK2 thru DK10 folders are added to DKPLUGINS, the first in the list will be hit, DK2. If DK6 has DKCore, it uses local. 
          
+         *Final Question*
+         Q. Let's say we have a whole web of DKROOT folders, thousands, and some have DKPlugins, some have DKCore, some have DKApps, and they are all mixed.
+         ANSWER: Local folders will always be invoked first if they exist. If not, each list will be searched for the first avaiable and fail if not found. 
+                 CMakeLists.txt will find the first DKCore, the first DKPlugie,  the first library based on list order.
+                 
+         *Final Thoughts*
+         Is this the final route we want to go with directory structure? Can we find more issues? can we find more improvements? When is it decided?
+         
+         
+         
          
          
          
