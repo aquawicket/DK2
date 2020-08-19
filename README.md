@@ -6,9 +6,9 @@ DK2 - DigitalKnob rebuilt from the bottom up.
       The only constant will be a root DK2 folder. This is where we hold any information. DK/CMakeLists.txt is our root file.
       
       1. DK2/CMakeLists.txt
-         As Cmake runs CMakeLists.txt, it will set DKROOT to the current path.   Example: DKROOT = C:/DK2
-         Now that CMakeLists.txt knows where DKROOT is, we can begin to run any CMake code and build. 
+         CMakeLists will call the DKCMake/DK2.cmake file and start the build. 
          
+      2. DKCMake/DK2.cmake
          *Default folders will be assigned to cmake vairables*
          DK3RDPARTY = DKROOT/DK3rdParty  "optional"
          DKAPPS = DKROOT/DKApps "optional"
