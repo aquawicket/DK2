@@ -2,6 +2,7 @@
 DK2 - DigitalKnob rebuilt from the bottom up.
 
 #1 - The Directory Structure
+
       We should have the least amount of restriction, and most amount of freedom, to easly move, add, and rename any DK2 folders.
       The only constant will be a root DK2 folder. This is where we hold any information. DK/CMakeLists.txt is our root file.
       
