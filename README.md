@@ -5,7 +5,7 @@ DK2 - DigitalKnob rebuilt from the bottom up.
 
       We should have the least amount of restriction, and most amount of freedom, to easly move, add, 
       and rename any DK2 folders. The only constant will be a root DK2 folder. This is where we hold 
-      any information. DK/CMakeLists.txt is our root file.
+      any information. DK2/DKCMake/CMakeLists.txt is our root file.
       
       1. /DKCMake/CMakeLists.txt
          CMakeLists will call the DK2.cmake file and start the build. 
