@@ -1,6 +1,6 @@
 ## ALL DK2 projects are build from here.
 
-## Set CMake's source code location to this directory.    I.E.  C:/DK2
+## Set CMake's source code location to this directory.    I.E.  C:/DK2/DKCMake
 ## Set Cmake's build binaries location to the appropriate app output location.  I.E.  C:/DK2/DKApps/MyApp/win32  
 
 CMAKE_MINIMUM_REQUIRED(VERSION 3.4) #XXX: What is the very minimum that will work? 
